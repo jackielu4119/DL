@@ -11,7 +11,13 @@ This code consists N parts:
 1. ppg_analy.py:
    The PPG signal preprocessing and analysis code.
 
-2. XXXXXX 
+2. Signal_pairing.ipynb
+
+3.IL Model.ipynb
+
+4.DL Model.ipynb
+
+5.ROC-curve.ipynb
 
 Currently we have ppg_analy.py code ready for posting in github, and
 the other parts are still under checking and preparation. They will
