@@ -1,0 +1,80 @@
+#--------------------------------------------------------------------------
+#
+#       Global parameters.
+#
+#--------------------------------------------------------------------------
+
+#	Output data directory.
+#
+OUT_DIR:       out0
+
+#	Total measurement time in each data file.
+#
+DATA_T_TOT:    60
+
+#	Interpolation algorithm for original signal randering.
+#
+#	 1: Simple interpolation
+#	 2: Akima 1D Interpolation algorithm
+#
+DATA_INTERP_ALGO:  2
+
+#	Sampling rate for analysis (number of samples per sec).
+#
+DATA_SAMPLE_R: 250
+
+#       Set the signal type to process and plot generation on-the-fly.
+#
+run_PPG_L:     yes
+run_PPG_R:     yes
+
+#       Ratio of number of data points to cut to exclude outliers:
+#	    Outlier_Cut_Ratio_1:  outliers in small values region
+#	    Outlier_Cut_Ratio_2:  outliers in large values region
+#
+Outlier_Cut_Ratio_1:  0.1
+Outlier_Cut_Ratio_2:  0.1
+
+
+#--------------------------------------------------------------------------
+#
+#       Parameters for PPG analysis.
+#
+#--------------------------------------------------------------------------
+
+#	PPG: Rough time length of each step (sec)
+#
+T_STEP:        60
+
+#	Time to skip in the beginning of the signals (sec)
+#
+T_INIT_SKIP:   3
+
+#	PPG: Range of time interval to search for step boundary (sec)
+#
+T_DT_STEPB:    0.0
+
+#	PPG: AC sigal cutoff frequence (Hz).
+#
+AC_HZ:         0.75
+
+#	PPG: Noise cutoff frequence (Hz).
+#
+NZ_HZ:         7.5
+
+#	PPG: Threshold ratio to find PPG peak-valey
+#	     (relative to the max amplitude)
+#
+TH_RATIO:      0.50
+
+#	PPG: Threshold of relative average & errorbar values to find
+#	     plateau in AC 1st derivative.
+#
+DA1_PLAT_AVE:  0.1
+DA1_PLAT_ERR:  0.02
+
+#	PPG: AC normalization:
+#	  0: off
+#	  1: singal standarization
+#
+PPG_Norm: 1
