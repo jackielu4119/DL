@@ -13,11 +13,15 @@ This code consists N parts:
 
 2. Signal_pairing.ipynb
 
-3. IL Model.ipynb
-
+3. IL Model.ipynb:
+   The Induction Learning code
+   
 4. DL Model.ipynb
+   The Deduction Learning code.
 
 5. ROC-curve.ipynb
+
+6. Screening-Rule.ipynb
 
 Currently we have ppg_analy.py code ready for posting in github, and
 the other parts are still under checking and preparation. They will
