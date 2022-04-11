@@ -16,7 +16,7 @@ This code consists N parts:
 3. IL Model.ipynb:
    The Induction Learning code
    
-4. DL Model.ipynb
+4. DL Model.ipynb:
    The Deduction Learning code.
 
 5. ROC-curve.ipynb
