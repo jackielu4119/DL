@@ -3,7 +3,7 @@
 
 Deduction Learning code for blood glucose prediction from PPG signal
 
-                           Version 0.1
+                           Version 0.2
 --------------------------------------------------------------------
 
 This code consists N parts:
