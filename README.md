@@ -63,8 +63,8 @@ Usage:
         python3 ./ppg_analy.py <full path of sub_info file>
 
 - Signal_pairing.ipynb:
-  Input the file that after ppg_analy.py
-  And output the file with paired PPG pulse
+  Input the file that after ppg_analy.py,And output the file with paired PPG pulse.
+
 
 Authors:
    Wei-Ru Lu(a), Wen-Tse Yang(a,b), Justin Chiu(a), Tung-Han Hsieh(a),
