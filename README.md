@@ -11,7 +11,8 @@ This code consists N parts:
 1. ppg_analy.py:
    The PPG signal preprocessing and analysis code.
 
-2. Signal_pairing.ipynb
+2. Signal_pairing.ipynb:
+   Pairing mechanism for grouping iteration i and iteration i-1
 
 3. IL Model.ipynb:
    The Induction Learning code
@@ -61,7 +62,9 @@ Usage:
 
         python3 ./ppg_analy.py <full path of sub_info file>
 
-
+- Signal_pairing.ipynb:
+  Input the file that after ppg_analy.py
+  And output the file with paired PPG pulse
 
 Authors:
    Wei-Ru Lu(a), Wen-Tse Yang(a,b), Justin Chiu(a), Tung-Han Hsieh(a),
