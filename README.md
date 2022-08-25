@@ -26,7 +26,7 @@ This code consists N parts:
 
 Currently we have ppg_analy.py code ready for posting in github, and
 the other parts are still under checking and preparation. They will
-be posted as soon as everything is ready, before August, 2022.
+be posted as soon as everything is ready.
 
 Usage:
 
