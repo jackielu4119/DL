@@ -22,7 +22,7 @@ This code consists N parts:
 
 5. ROC-curve.ipynb
 
-6. Screening-Rule.ipynb
+6. Screening-Rule part (in the DL Model.ipynb)
 
 Currently we have ppg_analy.py code ready for posting in github, and
 the other parts are still under checking and preparation. They will
